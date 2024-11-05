@@ -29,5 +29,12 @@
     <color name="dark_orange">#FF4E2E43</color>
     <color name="dark_orange1">#F4EBe3</color>
 
+    <color name="primary_yellow">#FFDD00</color>
+    <color name="light_gray">#F3F4F6</color>
+    <color name="hint_gray">#A9A9A9</color>
+
+    <color name="dark_blue">#1B1B2F</color>
+
+
 
 </resources>

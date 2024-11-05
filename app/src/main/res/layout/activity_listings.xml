@@ -12,7 +12,7 @@
         android:layout_width="104dp"
         android:layout_height="63dp"
         android:layout_gravity="end"
-        android:backgroundTint="@color/red"
+        android:backgroundTint="@color/dark_blue"
         android:text="Logout"
         android:textSize="10sp"
         app:cornerRadius="17dp" />

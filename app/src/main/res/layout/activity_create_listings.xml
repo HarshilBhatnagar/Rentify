@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/dark_blue"
     tools:context=".createListings">
 
     <EditText
@@ -17,7 +17,7 @@
         android:padding="15dp"
         android:layout_margin="4dp"
         android:textColor="@color/black"
-        android:textColorHint="@color/dark_grey" />
+        android:textColorHint="#A9A9A9" />
 
     <EditText
         android:id="@+id/enterDescription"
@@ -30,7 +30,8 @@
         android:layout_margin="4dp"
         android:maxLines="5"
         android:textColor="@color/black"
-        android:textColorHint="@color/dark_grey" />
+        android:textColorHint="#A9A9A9"
+        />
 
     <EditText
         android:id="@+id/enterLocation"
@@ -41,7 +42,8 @@
         android:layout_margin="4dp"
         android:hint="Location"
         android:textColor="@color/black"
-        android:textColorHint="@color/dark_grey"/>
+        android:textColorHint="#A9A9A9"
+        />
 
     <EditText
         android:id="@+id/entercoordinates"
@@ -52,7 +54,8 @@
         android:layout_margin="4dp"
         android:hint="Co-ordinates"
         android:textColor="@color/black"
-        android:textColorHint="@color/dark_grey"/>
+        android:textColorHint="#A9A9A9"
+        />
 
     <EditText
         android:id="@+id/enterPrice"
@@ -64,7 +67,8 @@
         android:layout_margin="4dp"
         android:hint="Price"
         android:textColor="@color/black"
-        android:textColorHint="@color/dark_grey"/>
+        android:textColorHint="#A9A9A9"
+        />
 
     <EditText
         android:id="@+id/enterAmenities"
@@ -76,7 +80,8 @@
         android:layout_marginTop="7dp"
         android:hint="Amenities"
         android:textColor="@color/black"
-        android:textColorHint="@color/dark_grey" />
+        android:textColorHint="#A9A9A9"
+        />
 
     <EditText
         android:id="@+id/enterPhone"
@@ -91,14 +96,15 @@
         android:hint="Contact number"
         android:inputType="phone"
         android:textColor="@color/black"
-        android:textColorHint="@color/dark_grey"/>
+        android:textColorHint="#A9A9A9"
+        />
     <Button
         android:id="@+id/enterimg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="7dp"
         android:layout_margin="5dp"
-        android:backgroundTint="@color/setmain2"
+        android:backgroundTint="#FFDD00"
         android:text="Choose image"
         android:textColor="@color/black"
         app:cornerRadius="17dp"/>
@@ -116,7 +122,7 @@
         android:layout_height="wrap_content"
         android:padding="20dp"
         android:layout_margin="5dp"
-        android:backgroundTint="@color/setmain"
+        android:backgroundTint="#FFDD00"
         app:cornerRadius="17dp"
         android:layout_marginTop="7dp"
         android:text="Create Listing"/>

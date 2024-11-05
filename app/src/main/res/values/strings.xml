@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Rentomatic</string>
+    <string name="app_name">Rentify</string>
     <string name="title_activity_tenant_login">tenant_login_activity</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
